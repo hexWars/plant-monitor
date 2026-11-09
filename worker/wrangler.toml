@@ -12,7 +12,7 @@ DEVICE_ID = "plant-cabinet-01"
 [[d1_databases]]
 binding = "DB"
 database_name = "plant-cabinet-db"
-database_id = "在这里填写Cloudflare返回的数据库ID"
+database_id = "65e83cc0-18da-456c-8c1a-e7ce0aba5aa9"
 migrations_dir = "migrations"
 
 [triggers]
