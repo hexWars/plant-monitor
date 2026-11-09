@@ -1,0 +1,19 @@
+
+name = "plant-cabinet-api"
+main = "src/index.js"
+
+compatibility_date = "2026-11-09"
+
+workers_dev = true
+
+[vars]
+DEVICE_ID = "plant-cabinet-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "plant-cabinet-db"
+database_id = "在这里填写Cloudflare返回的数据库ID"
+migrations_dir = "migrations"
+
+[triggers]
+crons = ["0 19 * * *"]
